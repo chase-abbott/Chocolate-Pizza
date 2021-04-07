@@ -1,6 +1,16 @@
 body {
     margin-left: 10em;
     margin-right: 10em;
+    font-size: 20px;
+    line-height: 1.5;;
+    }
+#chocolate {
+    height: auto;
+    width: 45%;
+    }
+#divider {
+    height: auto;
+    width: 100%;
 }
 header {
     display:grid;
@@ -21,7 +31,6 @@ li {
 #logo {
     display: grid;
     grid-template-columns: 50px auto;
- 
     }
 #fork-and-knife {
     grid-row: 1 / span 2;
@@ -62,4 +71,39 @@ li {
     right: 50px;
     top: 12px;
     line-height: 34px;
+    }
+#bio {
+    display: grid;
+    grid-template-columns: 10% 60% auto;
+    height: 1px;
+    }
+div > p{
+    margin:0;
+    padding:0;
 }
+#name {
+    font-size: 1.25em;
+}
+#button {
+    box-shadow:inset 0px -2px 0px 0px #cf866c;
+    background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    background-color:#d0451b;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:28px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #854629;
+    margin-top: 30px;
+    }
+#Button:hover {
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    background-color:#bc3315;
+    }
+#Button:active {
+    position:relative;
+    top:1px;
+    }
+    
