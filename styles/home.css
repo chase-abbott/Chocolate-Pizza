@@ -1,15 +1,30 @@
+body {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+header {
+    display:grid;
+    grid-template-columns: 80% 20% ;
+    }
 label {
     display: flex;
     flex-direction: row;
+    }
+section {
+    display:grid;
+    grid-template-columns: 90% 10%;
 }
-
 #logo {
     display: grid;
-    grid-template-columns: 50px .5fr;
-    border: 1px solid black;
-}
-
+    grid-template-columns: 50px auto;
+ 
+    }
 #fork-and-knife {
     grid-row: 1 / span 2;
-    width: 3em;
+    }
+#choco-pizza {
+    width: 100%;
+    height: auto;
+    position: relative;
+
 }
