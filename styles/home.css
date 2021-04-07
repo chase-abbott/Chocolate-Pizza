@@ -1,24 +1,37 @@
 body {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 20px;
     line-height: 1.5;;
     }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 15px;
+}
 #chocolate {
     height: auto;
     width: 45%;
     }
+#delicious {
+    height: auto;
+    width: 60%;
+
+}
 #divider {
     height: auto;
     width: 100%;
 }
 header {
     display:grid;
-    grid-template-columns: 80% 20% ;
+    grid-template-columns: 30% 70% ;
+    height: 80px;
     }
+
 label {
     display: flex;
     flex-direction: row;
+    font-size: 8px ;
     }
 
 li {
@@ -31,6 +44,7 @@ li {
 #logo {
     display: grid;
     grid-template-columns: 50px auto;
+    height: 50px;
     }
 #fork-and-knife {
     grid-row: 1 / span 2;
@@ -119,23 +133,20 @@ footer {
     display: flex;
    align-items: center;
    flex-direction: column;
-}
-
+    }
 footer > p {
     margin: 0;
     font-size: 12px;
     color: gray;
-}
-
+    }
 #name-div{
     margin-left: 20px;
-}
-    
+    } 
 #printer {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+    }
 
 #printer > label {
     font-size: 10px;
