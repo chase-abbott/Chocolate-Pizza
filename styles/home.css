@@ -37,6 +37,7 @@ label {
 
 li {
     list-style: none;
+    font-size: 3vmax;
 }
 #title {
     display:grid;
@@ -71,10 +72,10 @@ nav > img {
 }
 
 #list-img {
-    width: 100%;
-    height: auto;
+    width: 90vw;
+    height: 120vh;
     position: relative;
-    min-width: 600px;
+    /* min-width: 600px; */
 }
 
 #ul-1 {
@@ -91,6 +92,8 @@ nav > img {
     top: 12px;
     line-height: 34px;
     margin: 1rem;
+    width: 50vw;
+  
     }
 
 #list-2 {
@@ -100,6 +103,7 @@ nav > img {
     top: 12px;
     line-height: 34px;
     margin: 1rem;
+    width: 40vw;
     }
 #bio {
     display: grid;
@@ -177,3 +181,5 @@ footer > p {
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
+
+
